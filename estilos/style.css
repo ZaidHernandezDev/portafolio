@@ -1,0 +1,27 @@
+body{
+    background: #daeaf8;
+}
+
+header, footer, .btn{
+    background: #63a4fa;
+}
+
+.btn:hover{
+    background: #2f86f8; 
+    border: 1px solid black;
+}
+
+@media (min-width: 768px){
+    .col-md-5 {
+        width: 46.666667%;
+    }
+}
+
+
+@media (min-width:992px){
+    .col-xl-3{
+        width: 30%;
+    }
+}
+
+
