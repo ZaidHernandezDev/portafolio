@@ -1,230 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
     <!--Importación de estilos de Bootstrap 5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
 
     <!--Importación de los estilos -->
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" />
 
     <title>Portafolio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--Inicio de barra de navegación-->
     <header class="border-bottom border-dark">
-        <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand text-center">Zaid A. Ramírez Hernández</a>
-                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item"><a href="https://github.com/ZaidRamirez" class="nav-link">Github</a></li>
-                        <li class="nav-item"><a href="https://www.linkedin.com/in/zaid-alberto-ramírez-hernández-web-dev-jr/" class="nav-link">Linkedin</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand text-center">Zaid A. Ramírez Hernández</a>
+          <button
+            class="navbar-toggler border-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="https://github.com/ZaidHernandezDev" class="nav-link">Github</a></li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/zaid-alberto-ramírez-hernández-web-dev-jr/" class="nav-link"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--Fin de barra de navegación-->
 
     <!--Inicio de tarjetas de proyectos-->
     <div class="container my-2">
-        <div class="row my-3">
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/css.png" alt="..." class="card-image-top border">
-                <div class="card-body">
-                    <h3 class="card-title">Maquetación con HTML y CSS</h3>
-                    <p class="card-text">
-                        Esta maquetación está hecha en base a una imagen que se usó como plantilla para pasar de una
-                        imagen a una maquetación. En esta maquetación se usan transiciones y animaciones para hacer más
-                        dinamica la página. Esta maquetación está hecha con HTML y CSS puro, unicamente usando el
-                        preprocesador LESS para facilitar el manejo de variables y anidación en CSS. El proyecto es
-                        totalmente responsivo
-                    </p>
-
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3"><img
-                            src="images/less.svg" alt="LESS"><img src="images/ghpages.svg" alt="Github pages">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-success">Terminado</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://zaidramirez.github.io/Maquetacion-responsive-HTML-y-CSS/" class="btn">Ir al
-                            proyecto</a>
-                        <a href="https://github.com/ZaidRamirez/Maquetacion-responsive-HTML-y-CSS" class="btn">Ir al
-                            código</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/javascript.png" alt="..." class="card-image-top">
-                <div class="card-body">
-                    <h3 class="card-title">Mini proyecto con JS</h3>
-                    <p class="card-text">
-                        Este proyecto cuenta con 3 páginas, en la primera se nos muestra un ejemplo de articulos sobre
-                        un tema, en la segunda se nos muestra un reloj que usamos gracias a la librería Moment.js que en
-                        conjunto con JQuery nos facilita el uso de horas en el proyecto, la última página es un
-                        formulario de contacto que hacemos en conjunto con la librería form-validator de JQuery que nos
-                        facilita el validar los datos de manera local que el usuario ingresa.
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3"><img
-                            src="images/js.svg" alt="JavaScript"><img src="images/jquery.svg" alt="JQuery"><img
-                            src="images/ghpages.svg" alt="Github pages">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-success">Terminado</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://zaidramirez.github.io/proyecto-JS-Jquery/index.html" class="btn">Ir al
-                            proyecto</a>
-                        <a href="https://github.com/ZaidRamirez/proyecto-JS-Jquery" class="btn">Ir al código</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/encriptador.png" alt="..." class="card-image-top">
-                <div class="card-body">
-                    <h3 class="card-title">Challenger encriptador</h3>
-                    <p class="card-text">
-                        Este challenge se realizó en el curso "Oracle Next Education", el challente consiste en crear un
-                        encriptador que use HTML, CSS, Bootstrap y JavaScript. El objetivo de este challenge es que el
-                        encriptador reciba una cadena de texto por parte del usuario y la convierta a un mensaje
-                        encriptado, este encriptador también tiene que ser capaz de desencriptar los mensajes que el
-                        usuario le ingrese. El proyecto es totalmente responsivo
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3"><img
-                            src="images/js.svg" alt="JavaScript"><img src="images/ghpages.svg" alt="Github pages">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-success">Terminado</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://zaidramirez.github.io/Challenge-1-Encriptador/" class="btn">Ir al proyecto</a>
-                        <a href="https://github.com/ZaidRamirez/Challenge-1-Encriptador" class="btn">Ir al código</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/upiicsafood.png" alt="..." class="card-image-top">
-                <div class="card-body">
-                    <h3 class="card-title">Proyecto final UPIICSA&nbsp;FOOD</h3>
-                    <p class="card-text">
-                        Este es el proyecto final de la materia de programación web en UPIICSA, en este proyecto se creó
-                        un sitio en donde se pueda hacer compra y venta de articulos de comida, este sitio ofrece a los
-                        compradores una manera facil de contactarse con los vendedores y a los vendedores les ofrece un
-                        espacio en donde pueden compartir sus productos, este sitio cuenta con una base de datos y un
-                        diseño que facilita al usuario navegar por las diferentes páginas.
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3">
-                        <img src="images/bootstrap.svg" alt="Bootstrap"><img src="images/sass.svg" alt="SASS"><img
-                            src="images/python.svg" alt="python"><img src="images/sqlite.svg" alt="SQlite"><img
-                            src="images/django.svg" alt="Django">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-danger">En proceso - Corrigiendo errores y haciendo el proyecto
-                            responsivo</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/ZaidRamirez/UPIICSA-STORE" class="btn">Ir al código</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/google.png" alt="..." class="card-image-top border">
-                <div class="card-body">
-                    <h3 class="card-title">Buscador de Google</h3>
-                    <p class="card-text">
-                        Este sitio es un ejercicio para practicar HTML y CSS, en este sitio el usuario puede hacer
-                        búsquedas a google, google imágenes y hacer búsquedas avanzadas en google
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-success">Terminado</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/ZaidRamirez/buscador-de-google" class="btn">Ir al código</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
-                <img src="images/wiki.png" alt="..." class="card-image-top border">
-                <div class="card-body">
-                    <h3 class="card-title">Proyecto: Wiki</h3>
-                    <p class="card-text">
-                        Este proyecto es una introducción a Python y Django en el desarrollo web. En este proyecto se
-                        busca que el usuario pueda agregar páginas de una wiki a la base de datos, la página va a
-                        mostrar las páginas que el usuario ha creado, el usuario puede crear, editar y borrar páginas de
-                        esta wiki y los cambios se van a ver reflejados en la base de datos. Las páginas de la wiki
-                        están hechas en lenguaje Markdown para que se le facilite al usuario el editar la página a su
-                        gusto y agregar imágenes, encabezados, links y otras cosas que son necesarias en una wiki.
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom border-secondary">
-                        Lenguajes utilizados:
-                        <img src="images/HTML.svg" alt="HTML"><img src="images/css3.svg" alt="CSS3">
-                        <img src="images/bootstrap.svg" alt="Bootstrap"><img
-                            src="images/python.svg" alt="python"><img src="images/sqlite.svg" alt="SQlite"><img
-                            src="images/django.svg" alt="Django">
-                    </li>
-                    <li class="list-group-item border-bottom border-secondary">
-                        Estado actual: <span class="text-success">Terminado</span>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://github.com/ZaidRamirez/wiki" class="btn">Ir al código</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="row my-3">
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/css.png" alt="..." class="card-image-top border" />
+          <div class="card-body">
+            <h3 class="card-title">Maquetación con HTML y CSS</h3>
+            <p class="card-text">
+              Esta maquetación está hecha en base a una imagen que se usó como plantilla para pasar de una imagen a una
+              maquetación. En esta maquetación se usan transiciones y animaciones para hacer más dinamica la página. Esta
+              maquetación está hecha con HTML y CSS puro, unicamente usando el preprocesador LESS para facilitar el manejo de
+              variables y anidación en CSS. El proyecto es totalmente responsivo
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" /><img
+                src="images/less.svg"
+                alt="LESS" /><img src="images/ghpages.svg" alt="Github pages" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual: <span class="text-success">Terminado</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://zaidhernandezdev.github.io/Maquetacion-responsive-HTML-y-CSS/" class="btn">Ir al proyecto</a>
+              <a href="https://github.com/ZaidHernandezDev/Maquetacion-responsive-HTML-y-CSS" class="btn">Ir al código</a>
+            </li>
+          </ul>
         </div>
+
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/javascript.png" alt="..." class="card-image-top" />
+          <div class="card-body">
+            <h3 class="card-title">Mini proyecto con JS</h3>
+            <p class="card-text">
+              Este proyecto cuenta con 3 páginas, en la primera se nos muestra un ejemplo de articulos sobre un tema, en la
+              segunda se nos muestra un reloj que usamos gracias a la librería Moment.js que en conjunto con JQuery nos
+              facilita el uso de horas en el proyecto, la última página es un formulario de contacto que hacemos en conjunto
+              con la librería form-validator de JQuery que nos facilita el validar los datos de manera local que el usuario
+              ingresa.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" /><img
+                src="images/js.svg"
+                alt="JavaScript" /><img src="images/jquery.svg" alt="JQuery" /><img
+                src="images/ghpages.svg"
+                alt="Github pages" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual: <span class="text-success">Terminado</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://zaidhernandezdev.github.io/proyecto-JS-Jquery/index.html" class="btn">Ir al proyecto</a>
+              <a href="https://github.com/ZaidHernandezDev/proyecto-JS-Jquery" class="btn">Ir al código</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/encriptador.png" alt="..." class="card-image-top" />
+          <div class="card-body">
+            <h3 class="card-title">Challenger encriptador</h3>
+            <p class="card-text">
+              Este challenge se realizó en el curso "Oracle Next Education", el challente consiste en crear un encriptador
+              que use HTML, CSS, Bootstrap y JavaScript. El objetivo de este challenge es que el encriptador reciba una
+              cadena de texto por parte del usuario y la convierta a un mensaje encriptado, este encriptador también tiene
+              que ser capaz de desencriptar los mensajes que el usuario le ingrese. El proyecto es totalmente responsivo
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" /><img
+                src="images/js.svg"
+                alt="JavaScript" /><img src="images/ghpages.svg" alt="Github pages" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual: <span class="text-success">Terminado</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://zaidhernandezdev.github.io/Challenge-1-Encriptador/" class="btn">Ir al proyecto</a>
+              <a href="https://github.com/ZaidHernandezDev/Challenge-1-Encriptador" class="btn">Ir al código</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/upiicsafood.png" alt="..." class="card-image-top" />
+          <div class="card-body">
+            <h3 class="card-title">Proyecto final UPIICSA&nbsp;FOOD</h3>
+            <p class="card-text">
+              Este es el proyecto final de la materia de programación web en UPIICSA, en este proyecto se creó un sitio en
+              donde se pueda hacer compra y venta de articulos de comida, este sitio ofrece a los compradores una manera
+              facil de contactarse con los vendedores y a los vendedores les ofrece un espacio en donde pueden compartir sus
+              productos, este sitio cuenta con una base de datos y un diseño que facilita al usuario navegar por las
+              diferentes páginas.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" />
+              <img src="images/bootstrap.svg" alt="Bootstrap" /><img src="images/sass.svg" alt="SASS" /><img
+                src="images/python.svg"
+                alt="python" /><img src="images/sqlite.svg" alt="SQlite" /><img src="images/django.svg" alt="Django" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual:
+              <span class="text-danger">En proceso - Corrigiendo errores y haciendo el proyecto responsivo</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://github.com/ZaidHernandezDev/UPIICSA-STORE" class="btn">Ir al código</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/google.png" alt="..." class="card-image-top border" />
+          <div class="card-body">
+            <h3 class="card-title">Buscador de Google</h3>
+            <p class="card-text">
+              Este sitio es un ejercicio para practicar HTML y CSS, en este sitio el usuario puede hacer búsquedas a google,
+              google imágenes y hacer búsquedas avanzadas en google
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual: <span class="text-success">Terminado</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://github.com/ZaidHernandezDev/buscador-de-google" class="btn">Ir al código</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card col-11 col-md-5 col-xl-3 my-2 mx-auto p-0 border border-secondary">
+          <img src="images/wiki.png" alt="..." class="card-image-top border" />
+          <div class="card-body">
+            <h3 class="card-title">Proyecto: Wiki</h3>
+            <p class="card-text">
+              Este proyecto es una introducción a Python y Django en el desarrollo web. En este proyecto se busca que el
+              usuario pueda agregar páginas de una wiki a la base de datos, la página va a mostrar las páginas que el usuario
+              ha creado, el usuario puede crear, editar y borrar páginas de esta wiki y los cambios se van a ver reflejados
+              en la base de datos. Las páginas de la wiki están hechas en lenguaje Markdown para que se le facilite al
+              usuario el editar la página a su gusto y agregar imágenes, encabezados, links y otras cosas que son necesarias
+              en una wiki.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item border-bottom border-secondary">
+              Lenguajes utilizados:
+              <img src="images/HTML.svg" alt="HTML" /><img src="images/css3.svg" alt="CSS3" />
+              <img src="images/bootstrap.svg" alt="Bootstrap" /><img src="images/python.svg" alt="python" /><img
+                src="images/sqlite.svg"
+                alt="SQlite" /><img src="images/django.svg" alt="Django" />
+            </li>
+            <li class="list-group-item border-bottom border-secondary">
+              Estado actual: <span class="text-success">Terminado</span>
+            </li>
+            <li class="list-group-item">
+              <a href="https://github.com/ZaidHernandezDev/wiki" class="btn">Ir al código</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <!--Fin de tarjetas de proyectos-->
 
     <!--Inicio de footer-->
     <footer class="container-fluid m-0 border-top border-dark">
-        <p class="m-0 py-2 fs-5 text-black text-center">Zaid Alberto Ramírez Hernández &copy;</p>
+      <p class="m-0 py-2 fs-5 text-black text-center">Zaid Alberto Ramírez Hernández &copy;</p>
     </footer>
     <!--Fin de footer-->
     <!--Importación de JS de Bootstrap 5-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
