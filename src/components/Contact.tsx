@@ -6,8 +6,8 @@ const contactMethods = [
     icon: FaEnvelope,
     title: 'Email',
     description: 'Envíame un correo directamente',
-    action: 'zaid.ramirez@example.com',
-    href: 'mailto:zaid.ramirez@example.com',
+    action: 'zramirezh1801@alumno.ipn.mx',
+    href: 'mailto:zramirezh1801@alumno.ipn.mx',
     color: 'red',
   },
   {
@@ -92,7 +92,7 @@ export function Contact() {
 
           {/* CTA principal */}
           <VStack gap={4} pt={{ base: 4, md: 8 }} width={{ base: "100%", sm: "auto" }} px={{ base: 2, sm: 0 }}>
-            <Link href="mailto:zaid.ramirez@example.com" _hover={{ textDecoration: 'none' }} width={{ base: "100%", sm: "auto" }}>
+            <Link href="mailto:zramirezh1801@alumno.ipn.mx" _hover={{ textDecoration: 'none' }} width={{ base: "100%", sm: "auto" }}>
               <Button
                 size={{ base: "md", sm: "lg" }}
                 colorPalette="blue"
