@@ -2,7 +2,7 @@
 
 Portafolio personal desarrollado con React, TypeScript, ChakraUI y Tailwind CSS.
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **React 19** - Biblioteca para interfaces de usuario
 - **TypeScript** - Superset tipado de JavaScript
@@ -11,16 +11,16 @@ Portafolio personal desarrollado con React, TypeScript, ChakraUI y Tailwind CSS.
 - **Tailwind CSS v4** - Framework de utilidades CSS
 - **React Icons** - Iconos para React
 
-## 📋 Características
+## Características
 
-- ✨ Diseño moderno y responsivo
-- 🎨 Modo claro/oscuro con ChakraUI
-- 🎯 Componentes reutilizables
-- 📱 Totalmente responsivo
-- ⚡ Optimizado con Vite
-- 🔍 SEO friendly
-- ♿ Accesibilidad (a11y)
-- 🎭 Animaciones suaves
+- Diseño moderno y responsivo
+- Modo claro/oscuro con ChakraUI
+- Componentes reutilizables
+- Totalmente responsivo
+- Optimizado con Vite
+- SEO friendly
+- Accesibilidad (a11y)
+- Animaciones suaves
 
 ## 🛠️ Instalación
 
@@ -38,7 +38,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
@@ -55,7 +55,7 @@ src/
 └── index.css           # Estilos globales
 ```
 
-## 📝 Personalización
+## Personalización
 
 ### Añadir un nuevo proyecto
 
@@ -88,13 +88,13 @@ Edita los componentes `Header.tsx` y `Footer.tsx` para actualizar:
 
 Coloca las imágenes de tus proyectos en `public/images/`
 
-## 🎨 Temas y Estilos
+## Temas y Estilos
 
 El proyecto usa ChakraUI v3 con soporte para modo claro/oscuro. Los estilos se pueden personalizar en:
 - `src/components/ui/provider.tsx` - Configuración del tema
 - `src/index.css` - Estilos globales con Tailwind
 
-## 📦 Build
+## Build
 
 ```bash
 npm run build
@@ -102,7 +102,7 @@ npm run build
 
 Los archivos optimizados se generarán en la carpeta `dist/`
 
-## 🚀 Deploy
+## Deploy
 
 Puedes deployar este proyecto en:
 - GitHub Pages
@@ -110,13 +110,13 @@ Puedes deployar este proyecto en:
 - Netlify
 - Cloudflare Pages
 
-## 👨‍💻 Autor
+## Autor
 
 **Zaid Alberto Ramírez Hernández**
 - GitHub: [@ZaidHernandezDev](https://github.com/ZaidHernandezDev)
 - LinkedIn: [Zaid Alberto Ramírez Hernández](https://www.linkedin.com/in/zaid-alberto-ramirez-hernandez-web-dev-jr/)
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
