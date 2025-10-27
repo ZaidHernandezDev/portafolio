@@ -26,7 +26,7 @@ export function About() {
               Sobre mí
             </Heading>
             <Text fontSize={{ base: 'md', sm: 'lg', md: 'xl' }} color="fg.muted" maxW="3xl" px={{ base: 2, sm: 0 }}>
-              De estudiante curioso a desarrollador full stack
+              Desarrollador full stack
             </Text>
           </VStack>
 

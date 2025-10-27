@@ -1,12 +1,21 @@
 import type { Project } from '../types';
 
+// Importar imágenes como módulos
+import ptSmartHiringImg from '/images/pt-smart-hiring.png';
+import upiicsaFoodImg from '/images/upiicsafood.png';
+import cssImg from '/images/css.png';
+import javascriptImg from '/images/javascript.png';
+import encriptadorImg from '/images/encriptador.png';
+import googleImg from '/images/google.png';
+import wikiImg from '/images/wiki.png';
+
 export const projects: Project[] = [
   {
     id: 1,
     title: 'PT Smart Hiring Platform',
     description:
       'Plataforma de contratación inteligente que utiliza Machine Learning para automatizar el proceso de selección de candidatos. Sistema de scoring basado en soft skills, hard skills y nivel de inglés. Incluye dashboard administrativo completo, sistema de autenticación con rutas protegidas y API REST con FastAPI.',
-    image: '/images/pt-smart-hiring.png',
+    image: ptSmartHiringImg,
     technologies: [
       { name: 'React 19', icon: 'FaReact' },
       { name: 'TypeScript', icon: 'SiTypescript' },
@@ -24,7 +33,7 @@ export const projects: Project[] = [
   //   title: 'Kanban Board - Sistema de Gestión de Proyectos',
   //   description:
   //     'Tablero Kanban colaborativo Full Stack con arquitectura escalable. Incluye autenticación JWT con refresh tokens, RBAC (admin/colaborador), drag & drop, WebSockets para actualizaciones en tiempo real, y sistema completo de gestión de tareas con filtros avanzados. Dockerizado con MongoDB y pruebas automatizadas.',
-  //   image: '/images/kanban-board.png',
+  //   image: 'images/kanban-board.png',
   //   technologies: [
   //     { name: 'React', icon: 'FaReact' },
   //     { name: 'TypeScript', icon: 'SiTypescript' },
@@ -43,7 +52,7 @@ export const projects: Project[] = [
   //   title: 'Pet Food Planner - Planificador de Alimentación',
   //   description:
   //     'Sistema de planificación de alimentación para mascotas con base de datos relacional (MariaDB). Gestión de alimentos, recetas con múltiples ingredientes, planes semanales personalizados por mascota, cálculos automáticos de calorías y proteínas. Incluye Prisma ORM, migraciones versionadas, índices optimizados y seed de datos.',
-  //   image: '/images/pet-food-planner.png',
+  //   image: 'images/pet-food-planner.png',
   //   technologies: [
   //     { name: 'React', icon: 'FaReact' },
   //     { name: 'TypeScript', icon: 'SiTypescript' },
@@ -62,7 +71,7 @@ export const projects: Project[] = [
   //   title: 'Real-Time Polling Platform',
   //   description:
   //     'Plataforma de encuestas con resultados en tiempo real usando MongoDB y WebSockets. Sistema de votación única por usuario con prevención de doble voto mediante índices únicos compuestos, agregaciones con pipelines de MongoDB, rate limiting con Redis, auditoría de votos con IP/timestamp, y soft delete. Incluye idempotency keys para seguridad.',
-  //   image: '/images/polling-platform.png',
+  //   image: 'images/polling-platform.png',
   //   technologies: [
   //     { name: 'React', icon: 'FaReact' },
   //     { name: 'TypeScript', icon: 'SiTypescript' },
@@ -81,7 +90,7 @@ export const projects: Project[] = [
     title: 'Proyecto final UPIICSA FOOD',
     description:
       'Proyecto final de la materia de programación web en UPIICSA. Plataforma de compra y venta de alimentos que conecta compradores con vendedores. Incluye sistema de gestión de productos, autenticación de usuarios, base de datos relacional con Django ORM, y diseño responsivo con Bootstrap y SASS. Implementa búsqueda de productos, filtros por categoría y panel de administración.',
-    image: '/images/upiicsafood.png',
+    image: upiicsaFoodImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
@@ -100,7 +109,7 @@ export const projects: Project[] = [
     title: 'Maquetación con HTML y CSS',
     description:
       'Esta maquetación está hecha en base a una imagen que se usó como plantilla para pasar de una imagen a una maquetación. En esta maquetación se usan transiciones y animaciones para hacer más dinámica la página. Esta maquetación está hecha con HTML y CSS puro, únicamente usando el preprocesador LESS para facilitar el manejo de variables y anidación en CSS. El proyecto es totalmente responsivo.',
-    image: '/images/css.png',
+    image: cssImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
@@ -116,7 +125,7 @@ export const projects: Project[] = [
     title: 'Mini proyecto con JS',
     description:
       "Este proyecto cuenta con 3 páginas, en la primera se nos muestra un ejemplo de artículos sobre un tema, en la segunda se nos muestra un reloj que usamos gracias a la librería Moment.js que en conjunto con JQuery nos facilita el uso de horas en el proyecto, la última página es un formulario de contacto que hacemos en conjunto con la librería form-validator de JQuery que nos facilita el validar los datos de manera local que el usuario ingresa.",
-    image: '/images/javascript.png',
+    image: javascriptImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
@@ -133,7 +142,7 @@ export const projects: Project[] = [
     title: 'Challenge Encriptador',
     description:
       'Este challenge se realizó en el curso "Oracle Next Education", el challenge consiste en crear un encriptador que use HTML, CSS, Bootstrap y JavaScript. El objetivo de este challenge es que el encriptador reciba una cadena de texto por parte del usuario y la convierta a un mensaje encriptado, este encriptador también tiene que ser capaz de desencriptar los mensajes que el usuario le ingrese. El proyecto es totalmente responsivo.',
-    image: '/images/encriptador.png',
+    image: encriptadorImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
@@ -149,7 +158,7 @@ export const projects: Project[] = [
     title: 'Buscador de Google',
     description:
       'Este sitio es un ejercicio para practicar HTML y CSS, en este sitio el usuario puede hacer búsquedas a google, google imágenes y hacer búsquedas avanzadas en google.',
-    image: '/images/google.png',
+    image: googleImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
@@ -163,7 +172,7 @@ export const projects: Project[] = [
     title: 'Proyecto: Wiki',
     description:
       'Este proyecto es una introducción a Python y Django en el desarrollo web. En este proyecto se busca que el usuario pueda agregar páginas de una wiki a la base de datos, la página va a mostrar las páginas que el usuario ha creado, el usuario puede crear, editar y borrar páginas de esta wiki y los cambios se van a ver reflejados en la base de datos. Las páginas de la wiki están hechas en lenguaje Markdown para que se le facilite al usuario el editar la página a su gusto y agregar imágenes, encabezados, links y otras cosas que son necesarias en una wiki.',
-    image: '/images/wiki.png',
+    image: wikiImg,
     technologies: [
       { name: 'HTML', icon: 'FaHtml5' },
       { name: 'CSS3', icon: 'FaCss3Alt' },
